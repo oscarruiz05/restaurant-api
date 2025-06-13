@@ -1,0 +1,5 @@
+# .husky/commit-msg
+#!/bin/sh
+echo "[COMMIT‑MSG] se está ejecutando"
+. "$(dirname "$0")/_/husky.sh"
+npx --no -- commitlint --edit "$1"

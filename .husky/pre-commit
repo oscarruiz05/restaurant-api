@@ -1,0 +1,4 @@
+# .husky/pre-commit
+#!/bin/sh
+echo "[PRE‑COMMIT] se está ejecutando"
+npx --no -- lint-staged
